@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services • Watson HVAC Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Copy the full navbar from index.html here -->
+
+    <section class="py-24 bg-white">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <h1 class="text-5xl font-bold text-center mb-12">Our Services</h1>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">🔥 Heating Systems</div>
+                <div class="text-center">❄️ Cooling & Heat Pumps</div>
+                <div class="text-center">🚽 Cinderella Incineration Toilets</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+</body>
+</html>

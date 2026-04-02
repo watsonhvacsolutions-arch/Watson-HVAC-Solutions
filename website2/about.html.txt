@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us • Watson HVAC Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Same navbar as above - copy from index.html -->
+    <!-- (To save space, just copy the entire <nav> section from index.html into this file) -->
+
+    <section class="py-24">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <h1 class="text-5xl font-bold text-center mb-12">About Watson HVAC Solutions</h1>
+            <img src="https://i.ibb.co/0RQ9sy3H/IMG-6573.jpg" class="rounded-3xl mx-auto shadow-xl mb-12" alt="Team">
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto text-center">Family-owned and operated in Renfrew County since 2012. Proud authorized Cinderella dealer and full-service HVAC company.</p>
+        </div>
+    </section>
+
+    <!-- Footer (copy from index.html) -->
+</body>
+</html>

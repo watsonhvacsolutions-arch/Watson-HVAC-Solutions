@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing • Watson HVAC Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap');
+        
+        .pricing-section { background: #f8fafc; }
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px -12px rgb(0 48 135 / 0.25);
+        }
+    </style>
+</head>
+<body class="font-sans">
+
+    <!-- NAVBAR for pricing page -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-screen-2xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-11 h-11 bg-[#003087] rounded-2xl flex items-center justify-center text-white text-3xl">❄️</div>
+                <div>
+                    <h1 class="text-2xl font-bold text-[#003087]">Watson HVAC</h1>
+                    <p class="text-xs tracking-widest text-slate-500 -mt-1">SOLUTIONS</p>
+                </div>
+            </div>
+            <div class="hidden md:flex gap-8 text-sm font-medium">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#services" class="nav-link">Services</a>
+                <a href="pricing.html" class="nav-link font-semibold text-[#003087]">Pricing</a>
+                <a href="index.html#gallery" class="nav-link">Our Work</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="tel:6135586836" class="flex items-center bg-emerald-600 text-white px-6 py-3 rounded-3xl font-semibold">
+                <i class="fa-solid fa-phone mr-2"></i> (613) 558-6836
+            </a>
+        </div>
+    </nav>
+
+    <!-- PRICING CONTENT -->
+    <section class="pricing-section py-24">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold tracking-tighter">2026 Retail Pricing</h2>
+                <p class="text-xl text-slate-600">All prices in CAD • Current as of April 2026</p>
+            </div>
+
+            <!-- Comfort & Premium Electric -->
+            <div class="mb-20">
+                <h3 class="text-3xl font-semibold mb-8 flex items-center"><span class="text-4xl mr-4">⚡</span> Comfort & Premium Electric Models</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="pricing-card bg-white rounded-3xl p-10 text-center">
+                        <h4 class="text-2xl font-bold">Cinderella Comfort Electric</h4>
+                        <p class="text-slate-500">100 pc bowl liners included</p>
+                        <div class="text-6xl font-bold text-[#003087] my-6">$5,299.00</div>
+                        <a href="index.html#contact" class="block w-full py-5 bg-[#003087] text-white rounded-3xl font-semibold">Order Comfort</a>
+                    </div>
+                    <div class="pricing-card bg-white rounded-3xl p-10 text-center border-2 border-[#003087]">
+                        <h4 class="text-2xl font-bold">Cinderella Premium Electric</h4>
+                        <p class="text-slate-500">100 pc bowl liners included • Higher capacity</p>
+                        <div class="text-6xl font-bold text-[#003087] my-6">$5,899.00</div>
+                        <a href="index.html#contact" class="block w-full py-5 bg-[#003087] text-white rounded-3xl font-semibold">Order Premium</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Freedom Propane -->
+            <div class="mb-20">
+                <h3 class="text-3xl font-semibold mb-8 flex items-center"><span class="text-4xl mr-4">🔥</span> Freedom Propane Model</h3>
+                <div class="max-w-md mx-auto pricing-card bg-white rounded-3xl p-10 text-center">
+                    <h4 class="text-2xl font-bold">Cinderella Freedom Propane</h4>
+                    <p class="text-slate-500">100 pc bowl liners included</p>
+                    <div class="text-6xl font-bold text-[#003087] my-6">$5,499.00</div>
+                    <a href="index.html#contact" class="block w-full py-5 bg-[#003087] text-white rounded-3xl font-semibold">Order Freedom</a>
+                </div>
+            </div>
+
+            <!-- Travel Propane -->
+            <div class="mb-20">
+                <h3 class="text-3xl font-semibold mb-8 flex items-center"><span class="text-4xl mr-4">🚐</span> Travel / RV Propane Model</h3>
+                <div class="max-w-md mx-auto pricing-card bg-white rounded-3xl p-10 text-center">
+                    <h4 class="text-2xl font-bold">Cinderella Travel Propane</h4>
+                    <p class="text-slate-500">100 pc bowl liners included</p>
+                    <div class="text-6xl font-bold text-[#003087] my-6">$6,699.79</div>
+                    <a href="index.html#contact" class="block w-full py-5 bg-[#003087] text-white rounded-3xl font-semibold">Order Travel Model</a>
+                </div>
+            </div>
+
+            <!-- Installation Kits -->
+            <div class="mb-20">
+                <h3 class="text-3xl font-semibold mb-8">Installation Kits & Venting</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="pricing-card bg-white rounded-3xl p-8">Comfort Installation Kit (Box 1) <span class="block text-3xl font-bold mt-4">$170.00</span></div>
+                    <div class="pricing-card bg-white rounded-3xl p-8">Comfort Vent Kit (Box 2) <span class="block text-3xl font-bold mt-4">$285.00</span></div>
+                    <div class="pricing-card bg-white rounded-3xl p-8">Freedom Propane Vent Kit <span class="block text-3xl font-bold mt-4">$515.00</span></div>
+                    <div class="pricing-card bg-white rounded-3xl p-8">Travel Propane Vent Kit <span class="block text-3xl font-bold mt-4">$410.00</span></div>
+                    <div class="pricing-card bg-white rounded-3xl p-8">Travel Build-in Box Trim Kit <span class="block text-3xl font-bold mt-4">$475.00</span></div>
+                </div>
+            </div>
+
+            <!-- Accessories -->
+            <div>
+                <h3 class="text-3xl font-semibold mb-8">Accessories • Liners • Maintenance</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="pricing-card bg-white rounded-3xl p-6">500-pack Bowl Liners <span class="block font-bold text-xl mt-4">$69.00</span></div>
+                    <div class="pricing-card bg-white rounded-3xl p-6">Travel Liners <span class="block font-bold text-xl mt-4">$69.00</span></div>
+                    <div class="pricing-card bg-white rounded-3xl p-6">Maintenance Kit <span class="block font-bold text-xl mt-4">$183.08</span></div>
+                    <div class="pricing-card bg-white rounded-3xl p-6">Cinderella Urinal <span class="block font-bold text-xl mt-4">$819.00</span></div>
+                </div>
+            </div>
+
+            <div class="text-center mt-16 text-slate-500 text-sm">
+                Full 36-page price list with every part available upon request.<br>
+                Prices include HST where applicable • Installation pricing on request
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="max-w-screen-2xl mx-auto px-6 text-center">
+            <p class="text-xl font-semibold">Watson HVAC Solutions</p>
+            <p class="mt-2">Renfrew County, Ontario • Authorized Cinderella Dealer</p>
+            <p class="mt-1">(613) 558-6836 • watsonhvacsolutions@gmail.com</p>
+            <p class="text-xs mt-10 opacity-60">© 2026 Watson HVAC Solutions</p>
+        </div>
+    </footer>
+</body>
+</html>

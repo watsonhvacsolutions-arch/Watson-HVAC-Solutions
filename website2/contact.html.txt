@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact • Watson HVAC Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Copy navbar from index.html -->
+
+    <section class="py-24 bg-[#003087] text-white">
+        <div class="max-w-screen-2xl mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-6">Get in Touch</h1>
+            <a href="tel:6135586836" class="inline-flex items-center bg-white text-[#003087] text-3xl font-bold px-14 py-6 rounded-3xl">Call or Text (613) 558-6836</a>
+            <p class="mt-10">watsonhvacsolutions@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+</body>
+</html>
